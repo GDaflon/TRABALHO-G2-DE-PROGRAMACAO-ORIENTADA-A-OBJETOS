@@ -30,7 +30,7 @@ Uma onda derruba a surfista, que perde a costa de vista e precisa atravessar o o
 
 ### Eclipse (com WindowBuilder)
 
-1. `File > Import > General > Existing Projects into Workspace` e selecione a pasta `lost-in-the-waves`.
+1. `File > Import > General > Existing Projects into Workspace` e selecione a pasta deste repositório.
 2. Execute `src/app/Main.java` (`Run As > Java Application`).
 3. Para editar a tela no WindowBuilder: botão direito em `src/view/TelaPrincipal.java` >
    `Open With > WindowBuilder Editor` > aba **Design**.
