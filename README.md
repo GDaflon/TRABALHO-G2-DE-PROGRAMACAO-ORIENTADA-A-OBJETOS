@@ -28,6 +28,19 @@ Uma onda derruba a surfista, que perde a costa de vista e precisa atravessar o o
 
 ## Como executar
 
+### Executável (sem Eclipse)
+
+O arquivo [`dist/LostInTheWaves.jar`](dist/LostInTheWaves.jar) já tem o jogo compilado e as imagens. Basta ter **Java 8 ou superior** instalado.
+
+1. Baixe o [`LostInTheWaves.jar`](https://github.com/GDaflon/TRABALHO-G2-DE-PROGRAMACAO-ORIENTADA-A-OBJETOS/raw/main/dist/LostInTheWaves.jar).
+2. Dê dois cliques no arquivo. Se o Windows não abrir com o Java, use o `dist/Jogar-Windows.bat` (na mesma pasta do `.jar`) ou rode no terminal:
+
+```bash
+java -jar LostInTheWaves.jar
+```
+
+No Mac, se aparecer o aviso de desenvolvedor não identificado, clique com o botão direito no arquivo e escolha **Abrir**.
+
 ### Eclipse (com WindowBuilder)
 
 1. `File > Import > General > Existing Projects into Workspace` e selecione a pasta deste repositório.
@@ -119,6 +132,11 @@ src/
 ├── controller/
 │   └── GameController.java    ActionListener (Timer e menus) + KeyListener (teclado)
 └── assets/                    imagens do jogo
+
+dist/
+├── LostInTheWaves.jar         executável (Java 8+), com as imagens embutidas
+├── Jogar-Windows.bat          atalho para abrir o .jar no Windows
+└── Jogar-Mac-Linux.sh         atalho para abrir o .jar no Mac e no Linux
 ```
 
 **Fluxo:** o `javax.swing.Timer` do `GameController` dispara a cada 16 ms →

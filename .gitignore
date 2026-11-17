@@ -3,3 +3,6 @@ bin/
 .DS_Store
 .settings/
 *.jar
+
+# executável do jogo (publicado de propósito)
+!dist/LostInTheWaves.jar
